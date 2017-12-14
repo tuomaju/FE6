@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Task 6</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+</head>
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+        your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <div class="container">
+    <!-- Add your site or application content here -->
+    <div>
+        <input type="file" id="fileInput">
+    </div>
+    <div>
+        <canvas width="400" height="400"></canvas>
+        <label><input type="range" id="upDown"></label>
+    </div>
+    <div>
+        <label><input type="range" id="zoom" value="50"></label>
+        <br>
+        <label><input type="range" id="leftRight" value="50"></label>
+    </div>
+
+    <h2 id="test">Pitäis toimii hiirellä ja scrollilla</h2>
+
+
+    </div>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
